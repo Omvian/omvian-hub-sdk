@@ -2,6 +2,10 @@
     "name": "omvian-hub-sdk",
     "version": "1.0.0",
     "description": "SDK for Omvian Hub",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Omvian/omvian-hub-sdk.git"
+    },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
