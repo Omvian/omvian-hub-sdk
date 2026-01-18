@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Omvian/omvian-hub-sdk/compare/v1.0.3...v1.0.4) (2026-01-18)
+
+
+### Bug Fixes
+
+* 修复了自动更新版本号的问题。 ([1a76996](https://github.com/Omvian/omvian-hub-sdk/commit/1a769964b63c8d073661b62ae56bfbe53e83d3b6))
+
 ## [1.0.3](https://github.com/Omvian/omvian-hub-sdk/compare/v1.0.2...v1.0.3) (2026-01-18)
 
 
