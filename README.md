@@ -1,46 +1,46 @@
 # Omvian Hub SDK
 
-Independent SDK module for Omvian Hub tools development.
+用于 Omvian Hub 工具开发的独立 SDK 模块。
 
-## 📁 Directory Structure
+## 📁 目录结构
 
-- `src/`: TypeScript source code
-  - `index.ts`: SDK entry point
-  - `types.ts`: Type definitions
-  - `hooks.ts`: React hooks for tool development
-  - `components/`: React components (e.g., `ToolLifecycle`)
-  - `utils/`: Utility functions (e.g., version reading)
-  - `go/`: Go SDK implementation
-- `scripts/`: Automation scripts
-- `dist/`: Compiled output
-- `version.json`: Current version info (auto-generated)
-- `version.go`: Go version info (auto-generated)
+- `src/`: TypeScript 源代码
+  - `index.ts`: SDK 入口文件
+  - `types.ts`: 类型定义
+  - `hooks.ts`: 用于工具开发的 React hooks
+  - `components/`: React 组件（例如：`ToolLifecycle`）
+  - `utils/`: 工具函数（例如：版本读取）
+  - `go/`: Go SDK 实现
+- `scripts/`: 自动化脚本
+- `dist/`: 编译输出
+- `version.json`: 当前版本信息（自动生成）
+- `version.go`: Go 版本信息（自动生成）
 
-## 🔧 Development
+## 🔧 开发
 
-### Generate Version Files
+### 生成版本文件
 ```bash
 npm run version
 ```
 
-### Build SDK
+### 构建 SDK
 ```bash
 npm run build
 ```
 
-## 📦 Usage
+## 📦 使用
 
 ### TypeScript/React
-Import the SDK from `omvian-hub-sdk`:
+从 `omvian-hub-sdk` 导入 SDK：
 ```typescript
 import { useToolContext } from 'omvian-hub-sdk';
 ```
 
 ### Go
-Import the SDK from the local package:
+从本地包导入 SDK：
 ```go
 import "omvian-hub/sdk"
 ```
 
-## 🚀 Automation
-This project uses `semantic-release` for automated versioning and changelog generation.
+## 🚀 自动化
+本项目使用 `semantic-release` 进行自动版本控制和变更日志生成。
